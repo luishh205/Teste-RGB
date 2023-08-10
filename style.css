@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: start;
+    padding: 1rem;
+}
+
+main {
+    padding: 9rem;
+}
+
+.album {
+    margin-bottom: 5rem;
+}
+
+.album h2 {
+    font-size: 1.5rem;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-gap: 3rem;
+}
+
+.photos img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: rgb(131, 125, 125);
+    color: rgb(247, 240, 240);
+    text-align: start;
+    padding: 6rem;
+}
